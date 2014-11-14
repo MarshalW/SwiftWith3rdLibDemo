@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" red="0.79219852847224392" green="0.75453102492935464" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="80" y="170" width="240" height="128"/>
+                                    <rect key="frame" x="21" y="20" width="240" height="128"/>
                                 </variation>
                             </imageView>
                         </subviews>

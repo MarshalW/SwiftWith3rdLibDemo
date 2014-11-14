@@ -13,6 +13,12 @@
 		F3BAD82D1A15B3290064987A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BAD82C1A15B3290064987A /* Images.xcassets */; };
 		F3BAD8301A15B3290064987A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3BAD82E1A15B3290064987A /* LaunchScreen.xib */; };
 		F3BAD83C1A15B3290064987A /* SwiftWith3rdLibDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BAD83B1A15B3290064987A /* SwiftWith3rdLibDemoTests.swift */; };
+		F3BAD8521A15BDD50064987A /* Snappy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BAD84F1A15B8B00064987A /* Snappy.framework */; };
+		F3BAD8531A15BDD50064987A /* Snappy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F3BAD84F1A15B8B00064987A /* Snappy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F3BAD8661A15E1E20064987A /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BAD85F1A15DFDD0064987A /* libSDWebImage.a */; };
+		F3BAD8681A15E1F00064987A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BAD8671A15E1F00064987A /* ImageIO.framework */; };
+		F3BAD87F1A15EC7A0064987A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BAD87C1A15EC330064987A /* Alamofire.framework */; };
+		F3BAD8801A15EC7A0064987A /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F3BAD87C1A15EC330064987A /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +29,92 @@
 			remoteGlobalIDString = F3BAD81F1A15B3290064987A;
 			remoteInfo = SwiftWith3rdLibDemo;
 		};
+		F3BAD84E1A15B8B00064987A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3BAD8491A15B8B00064987A /* Snappy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEBCC9D819CC627D0083B827;
+			remoteInfo = Snappy;
+		};
+		F3BAD8501A15B8B00064987A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3BAD8491A15B8B00064987A /* Snappy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEBCC9E219CC627E0083B827;
+			remoteInfo = SnappyTests;
+		};
+		F3BAD8541A15BDD50064987A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3BAD8491A15B8B00064987A /* Snappy.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EEBCC9D719CC627D0083B827;
+			remoteInfo = Snappy;
+		};
+		F3BAD85E1A15DFDD0064987A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3BAD8571A15DFDD0064987A /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53761325155AD0D5005750A4;
+			remoteInfo = SDWebImage;
+		};
+		F3BAD8601A15DFDD0064987A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3BAD8571A15DFDD0064987A /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 537D95C117ECC1FE0097C263;
+			remoteInfo = "SDWebImage+WebP";
+		};
+		F3BAD8621A15DFDD0064987A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3BAD8571A15DFDD0064987A /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 531041E0157EAFA400BBABC3;
+			remoteInfo = "SDWebImage+MKAnnotation";
+		};
+		F3BAD8641A15E0FC0064987A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3BAD8571A15DFDD0064987A /* SDWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 53761307155AD0D5005750A4;
+			remoteInfo = SDWebImage;
+		};
+		F3BAD87B1A15EC330064987A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3BAD8761A15EC320064987A /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+		F3BAD87D1A15EC330064987A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3BAD8761A15EC320064987A /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = AlamofireTests;
+		};
+		F3BAD8811A15EC7A0064987A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3BAD8761A15EC320064987A /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F3BAD8561A15BDD50064987A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F3BAD8531A15BDD50064987A /* Snappy.framework in Embed Frameworks */,
+				F3BAD8801A15EC7A0064987A /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F3BAD8201A15B3290064987A /* SwiftWith3rdLibDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftWith3rdLibDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +127,11 @@
 		F3BAD8351A15B3290064987A /* SwiftWith3rdLibDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWith3rdLibDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BAD83A1A15B3290064987A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3BAD83B1A15B3290064987A /* SwiftWith3rdLibDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWith3rdLibDemoTests.swift; sourceTree = "<group>"; };
+		F3BAD8491A15B8B00064987A /* Snappy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Snappy.xcodeproj; path = Snappy/Snappy.xcodeproj; sourceTree = "<group>"; };
+		F3BAD8571A15DFDD0064987A /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = SDWebImage/SDWebImage.xcodeproj; sourceTree = "<group>"; };
+		F3BAD8671A15E1F00064987A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		F3BAD8691A15E3D40064987A /* SwiftWith3rdLibDemo-Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftWith3rdLibDemo-Bridge-Header.h"; sourceTree = "<group>"; };
+		F3BAD8761A15EC320064987A /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +139,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3BAD8681A15E1F00064987A /* ImageIO.framework in Frameworks */,
+				F3BAD8661A15E1E20064987A /* libSDWebImage.a in Frameworks */,
+				F3BAD8521A15BDD50064987A /* Snappy.framework in Frameworks */,
+				F3BAD87F1A15EC7A0064987A /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +162,10 @@
 				F3BAD8221A15B3290064987A /* SwiftWith3rdLibDemo */,
 				F3BAD8381A15B3290064987A /* SwiftWith3rdLibDemoTests */,
 				F3BAD8211A15B3290064987A /* Products */,
+				F3BAD8671A15E1F00064987A /* ImageIO.framework */,
+				F3BAD8571A15DFDD0064987A /* SDWebImage.xcodeproj */,
+				F3BAD8491A15B8B00064987A /* Snappy.xcodeproj */,
+				F3BAD8761A15EC320064987A /* Alamofire.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +181,7 @@
 		F3BAD8221A15B3290064987A /* SwiftWith3rdLibDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F3BAD8691A15E3D40064987A /* SwiftWith3rdLibDemo-Bridge-Header.h */,
 				F3BAD8251A15B3290064987A /* AppDelegate.swift */,
 				F3BAD8271A15B3290064987A /* ViewController.swift */,
 				F3BAD8291A15B3290064987A /* Main.storyboard */,
@@ -112,6 +217,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F3BAD84A1A15B8B00064987A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3BAD84F1A15B8B00064987A /* Snappy.framework */,
+				F3BAD8511A15B8B00064987A /* SnappyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3BAD8581A15DFDD0064987A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3BAD85F1A15DFDD0064987A /* libSDWebImage.a */,
+				F3BAD8611A15DFDD0064987A /* libSDWebImage+WebP.a */,
+				F3BAD8631A15DFDD0064987A /* libSDWebImage+MKAnnotation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3BAD8771A15EC320064987A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3BAD87C1A15EC330064987A /* Alamofire.framework */,
+				F3BAD87E1A15EC330064987A /* AlamofireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +255,14 @@
 				F3BAD81C1A15B3290064987A /* Sources */,
 				F3BAD81D1A15B3290064987A /* Frameworks */,
 				F3BAD81E1A15B3290064987A /* Resources */,
+				F3BAD8561A15BDD50064987A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F3BAD8651A15E0FC0064987A /* PBXTargetDependency */,
+				F3BAD8551A15BDD50064987A /* PBXTargetDependency */,
+				F3BAD8821A15EC7A0064987A /* PBXTargetDependency */,
 			);
 			name = SwiftWith3rdLibDemo;
 			productName = SwiftWith3rdLibDemo;
@@ -179,6 +316,20 @@
 			mainGroup = F3BAD8171A15B3290064987A;
 			productRefGroup = F3BAD8211A15B3290064987A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F3BAD8771A15EC320064987A /* Products */;
+					ProjectRef = F3BAD8761A15EC320064987A /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = F3BAD8581A15DFDD0064987A /* Products */;
+					ProjectRef = F3BAD8571A15DFDD0064987A /* SDWebImage.xcodeproj */;
+				},
+				{
+					ProductGroup = F3BAD84A1A15B8B00064987A /* Products */;
+					ProjectRef = F3BAD8491A15B8B00064987A /* Snappy.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F3BAD81F1A15B3290064987A /* SwiftWith3rdLibDemo */,
@@ -186,6 +337,58 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F3BAD84F1A15B8B00064987A /* Snappy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Snappy.framework;
+			remoteRef = F3BAD84E1A15B8B00064987A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3BAD8511A15B8B00064987A /* SnappyTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SnappyTests.xctest;
+			remoteRef = F3BAD8501A15B8B00064987A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3BAD85F1A15DFDD0064987A /* libSDWebImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDWebImage.a;
+			remoteRef = F3BAD85E1A15DFDD0064987A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3BAD8611A15DFDD0064987A /* libSDWebImage+WebP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage+WebP.a";
+			remoteRef = F3BAD8601A15DFDD0064987A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3BAD8631A15DFDD0064987A /* libSDWebImage+MKAnnotation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage+MKAnnotation.a";
+			remoteRef = F3BAD8621A15DFDD0064987A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3BAD87C1A15EC330064987A /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = F3BAD87B1A15EC330064987A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3BAD87E1A15EC330064987A /* AlamofireTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AlamofireTests.xctest;
+			remoteRef = F3BAD87D1A15EC330064987A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F3BAD81E1A15B3290064987A /* Resources */ = {
@@ -232,6 +435,21 @@
 			isa = PBXTargetDependency;
 			target = F3BAD81F1A15B3290064987A /* SwiftWith3rdLibDemo */;
 			targetProxy = F3BAD8361A15B3290064987A /* PBXContainerItemProxy */;
+		};
+		F3BAD8551A15BDD50064987A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Snappy;
+			targetProxy = F3BAD8541A15BDD50064987A /* PBXContainerItemProxy */;
+		};
+		F3BAD8651A15E0FC0064987A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			targetProxy = F3BAD8641A15E0FC0064987A /* PBXContainerItemProxy */;
+		};
+		F3BAD8821A15EC7A0064987A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			targetProxy = F3BAD8811A15EC7A0064987A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -293,6 +511,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -328,6 +547,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -336,9 +556,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SwiftWith3rdLibDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftWith3rdLibDemo/SwiftWith3rdLibDemo-Bridge-Header.h";
 			};
 			name = Debug;
 		};
@@ -346,9 +569,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SwiftWith3rdLibDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftWith3rdLibDemo/SwiftWith3rdLibDemo-Bridge-Header.h";
 			};
 			name = Release;
 		};
